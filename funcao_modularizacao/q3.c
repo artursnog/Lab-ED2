@@ -18,7 +18,10 @@ int inverte(int num) {
 
 int main() {
     int num = 1234;
-
     printf("%d\n", inverte(num));
+
+    int num1 = 6744;
+    printf("%d\n", inverte(num1));
+
     return 0;
 }

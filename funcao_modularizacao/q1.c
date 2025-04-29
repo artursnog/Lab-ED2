@@ -5,6 +5,7 @@
 #include <stdbool.h>
 
 bool ehPrimo(int x, int y) {
+
     for ( int i = x; i <= y; i++) {
         if (i == 0 || i == 1) {
             continue;
@@ -17,12 +18,18 @@ bool ehPrimo(int x, int y) {
                 printf("%d ", i);
             }
         }
-
     }
+    return 0;
 }
 
 int main() {
-    ehPrimo(1, 100);
+    int x, y;
+
+    printf("Digite um intervalo de dois numeros: ");
+    scanf("%d", &x);
+    scanf("%d", &y);
+    printf("Os numeros primos entre %d e %d sao: ", x, y);
+    ehPrimo(x, y);
 
     return 0;
 }
