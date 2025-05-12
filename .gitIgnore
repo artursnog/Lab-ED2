@@ -1,3 +1,6 @@
 .idea
 cmake-build-debug
 *.txt
+.vscode
+aula08_05
+*.exe
